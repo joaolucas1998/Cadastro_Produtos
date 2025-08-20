@@ -1,5 +1,5 @@
+import 'package:cadastro_produto/ProdutoModel/produto_model.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
-import '../ProdutoModel/produto_model.dart';
 
 class DatabaseService {
   static Database? _db;

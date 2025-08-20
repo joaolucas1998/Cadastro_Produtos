@@ -1,7 +1,7 @@
+import 'package:cadastro_produto/Database/database.dart';
 import 'package:cadastro_produto/Database/database_tratamentos/database_error.dart';
+import 'package:cadastro_produto/ProdutoModel/produto_model.dart';
 import 'package:flutter/material.dart';
-import '../ProdutoModel/produto_model.dart';
-import '../Database/database.dart';
 
 class ListaProduto extends StatefulWidget {
   const ListaProduto({super.key});
@@ -140,7 +140,6 @@ class _ListaProdutoState extends State<ListaProduto> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Formulário
             Card(
               color: const Color(0xFFFFF5E1),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
@@ -197,8 +196,6 @@ class _ListaProdutoState extends State<ListaProduto> {
               ),
             ),
             const SizedBox(height: 16),
-
-            // Lista de produtos
             Expanded(
               child: Card(
                 color: const Color(0xFFFFF5E1),
