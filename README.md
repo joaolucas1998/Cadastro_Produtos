@@ -1,16 +1,33 @@
-# cadastro_produto
+## Cadastro_Produtos
 
-A new Flutter project.
+Este é um aplicativo Flutter desenvolvido no Android Studio, que permite gerenciar uma lista de produtos localmente utilizando o banco de dados SQLite, com a biblioteca sqflite.
 
-## Getting Started
+## Funcionalidades:
 
-This project is a starting point for a Flutter application.
+Ao iniciar o app, a lista de produtos é carregada a partir do banco de dados SQLite local.
 
-A few resources to get you started if this is your first Flutter project:
+O usuário pode:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Cadastrar um novo produto.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Editar um produto existente.
+
+Excluir um produto da lista.
+
+## Tecnologias Utilizadas
+
+Flutter(SDK)
+Dart
+
+Android Studio
+
+sqflite
+Plugin para integração com SQLite no Flutter
+
+## Requisitos
+
+Flutter SDK instalado (versão atual)
+
+Android Studio ou outro editor compatível com Flutter
+
+
